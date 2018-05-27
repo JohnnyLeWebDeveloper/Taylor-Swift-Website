@@ -97,7 +97,7 @@ header nav a {
   }
 
   #bio .logo-centered {
-    width: 50%;
+    width: 65%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -106,9 +106,10 @@ header nav a {
 
 /*______________________MEDIA______________________*/
 
+
 #media {
   padding: 100px 0;
-  background-image: url("../images/albumart.jpg");
+  background-image: url("../images/.jpg");
   background-size: cover;
 }
 
