@@ -108,7 +108,7 @@ header nav a {
 
 #media {
   padding: 100px 0;
-  background-image: url("images/");
+  background-image: url("../images/albumart.jpg");
   background-size: cover;
 }
 
@@ -130,7 +130,7 @@ header nav a {
     padding: 80px 50px 0;
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-gap: 50px;
+    grid-gap: 17px;
   }
 
   #media .video {
@@ -221,7 +221,7 @@ header nav a {
 }
 
 #music .info .album-cover img {
-  width: 50;
+  width: 50%;
 }
 
 /*______________________TOUR______________________*/
