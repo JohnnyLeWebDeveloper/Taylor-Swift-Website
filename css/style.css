@@ -1,4 +1,3 @@
-
 /*______________________HEADER______________________*/
 
 * {
@@ -14,13 +13,9 @@ header {
     position: absolute;
     z-index: 3;
     padding: 15px;
-    display: flex;
     width: 100%;
+    display: flex;
     justify-content: space-between;
-}
-
-header .logo {
-    width: 200px;
 }
 
 header img {
@@ -28,6 +23,7 @@ header img {
 }
 
 header nav {
+    display: flex;
     align-self: center;
 }
 
@@ -41,25 +37,16 @@ header nav a {
 
 #top-section {
     position: relative;
-    height: 93vh;
-}
-
-/*#top-section .bluredbackground {
-    background-image: linear-gradient(45deg, rgba(25, 32, 42, 1) 0%, rgba(25, 32, 42, 1) 33%, rgba(25, 32, 42, 0.96) 36%, rgba(25, 32, 42, 0.86) 43%, rgba(176, 38, 183, 0.57) 62%, rgba(125, 185, 232, 0) 100%), url("../images/top.jpg");
-    background-size: cover;
-    height: 100vh;
+    background-color: #000;
+    min-height: 500px;
     width: 100%;
-    filter: blur(80px) saturate(100%);
-    position: absolute;
-    z-index: 1;
+    height: 100%;
+    background: url("../images/background.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
-
-#top-section .test {
-    max-width: 1300px;
-}
-*/
-
-/*______________________NAVIGATION______________________*/
 
 
 /*______________________BODY______________________*/
@@ -92,6 +79,8 @@ p {
 }
 
 
+
+
 /*______________________MEDIA______________________*/
 
 #media {
@@ -110,7 +99,7 @@ p {
     width: 100%;
     max-width: 500px;
     margin: 0 auto;
-    color: #fff; // margin: 0 0 80px;
+    color: #fff;
 }
 
 #media .videos {
@@ -131,14 +120,13 @@ p {
 
 #media iframe {
     height: 100%;
-
 }
 
 @media (min-width: 980px) {
-    #media iframe {
-    
-    }
+    #media iframe {}
 }
+
+
 
 
 /*______________________MUSIC______________________*/
@@ -159,7 +147,7 @@ p {
 }
 
 #music .container {
-    display: flex;
+    display: flex; 
     padding: 0 50px;
     position: relative;
     z-index: 3;
@@ -218,6 +206,8 @@ p {
 #music .info .album-cover img {
     width: 50%;
 }
+
+
 
 
 /*______________________TOUR______________________*/
@@ -289,6 +279,8 @@ p {
     font-weight: 500;
     color: #f14848;
 }
+
+
 
 
 
