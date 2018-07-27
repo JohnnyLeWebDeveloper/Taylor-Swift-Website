@@ -51,35 +51,6 @@ header nav a {
 
 /*______________________BODY______________________*/
 
-#bio {
-    background: black;
-    position: relative;
-    z-index: 3;
-    padding: 100px 0;
-}
-
-#bio .container {
-    display: flex;
-}
-
-p {
-    color: white;
-    line-height: 1.8;
-    font-size: 0.9rem;
-    width: 50%;
-    padding: 0 50px;
-}
-
-#bio .logo-centered {
-    width: 65%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0 50px;
-}
-
-
-
 
 /*______________________MEDIA______________________*/
 
@@ -127,8 +98,6 @@ p {
 }
 
 
-
-
 /*______________________MUSIC______________________*/
 
 #music {
@@ -148,13 +117,14 @@ p {
 
 #music .container {
     display: flex; 
+    justify-content: center;
     padding: 0 50px;
     position: relative;
     z-index: 3;
 }
 
 #music .info {
-    width: 50%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
