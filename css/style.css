@@ -653,7 +653,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #blueSection-bg.loaded{
-    background: url('../images/image222.jpeg') center center;
+    background: url('../images/image222.jpeg') bottom center;
     height: 100%;
 }
 
@@ -889,8 +889,17 @@ body.mobile-nav-active #mobile-nav-toggle {
 #media .videos {
     padding: 30px 60px 0;
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 1fr;
     grid-gap: 17px;
+}
+
+@media (min-width: 980px) {
+    #media .videos {
+    padding: 30px 60px 0;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 20px;
+ }
 }
 
 #media .video {
